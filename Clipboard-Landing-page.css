@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+        max-width: auto;
+        font-family:'poppins',sans-serif;
+        margin: 0px;
+        padding: 0px;
+        }
+.header{
+            background-image: url("bg-header-desktop.png");
+            max-width:100%;
+            height: 100px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display:flex;
+            justify-content:center;
+            align-items: baseline;
+            
+            }
+
+.hd1{
+    padding-top: 30px;
+    height: 100px;
+    }            
+
+.down {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            padding-top:20px;
+            
+        }
+.down img{
+                width:40px;
+                height: auto;
+                align-items: center;
+                justify-content: center;
+}
+
+#section{ 
+
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+}
+
+.main_box{
+    margin:10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+            }
+.container{max-width: 450px;}
+        
+.text1,.text2{
+                    text-align: center ;
+}
+
+.text1{
+        font-size: 20px;
+        font-weight: bold;}
+
+.text2{
+        font-size:10px;
+        margin-top: 10px;
+        line-height: 15px;
+    }
+
+.button_container{
+                            display:flex;
+                            gap:15px;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 30px;
+}
+.button1,.button2{
+                            width:150px;
+                            height:30px;
+                            border-radius: 20px;
+                            border:none;
+                            color:white;
+}
+.button1{
+            background: linear-gradient(90deg, #2DD4BF, #8DD9CF) ;
+}
+.button2{
+            background: linear-gradient(90deg, #6366F1, #B3BBF9);}
+
+.second_container{
+            margin:50px
+}
+.text3,.text4{ 
+    text-align: center;}
+.text3{
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 20px;
+        
+}
+
+
+.third_container{
+                        margin-bottom: 50px;
+}
+.third_container2{
+    width:800px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.third_container2 img{
+                                    width:550px;
+                                    height:250px;
+}
+
+.side_text{
+    margin-top: 20px;
+    max-width :400px; ;
+}
+.text5{
+    font-size: 13px;
+        font-weight: bold;
+}
+.text6{
+        font-size:10px;
+        margin-top: 5px;
+        line-height: 15px;
+        margin-bottom: 10px;
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    }
+.img_container img{
+    width: 500px;
+    height:auto}
+
+.box_container2{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+.box_container2 .box1,.box_container2 .box2,.box_container2 .box3{
+    width: 250px;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.box_container3 {
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.box_container3 img{
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.footer{
+    background: url("bg-header-desktop.png");
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.footer_container{
+    width: 900px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    font-size: 12px;
+    
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;}
+
+.social_media{
+    justify-content: space-between;
+    width:100px
+}
+.social_media img{
+    width: 15px;
+    height: 15px;
